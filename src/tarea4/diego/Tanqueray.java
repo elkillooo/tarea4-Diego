@@ -13,5 +13,11 @@ public class Tanqueray {
     
     private String graduacion;
     private int precio;
+
+    public Tanqueray(String graduacion, int precio) {
+        this.graduacion = graduacion;
+        this.precio = precio;
+    }
+    
     
 }
