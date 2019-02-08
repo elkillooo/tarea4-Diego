@@ -18,6 +18,25 @@ public class Tanqueray {
         this.graduacion = graduacion;
         this.precio = precio;
     }
+
+    public Tanqueray() {
+    }
+
+    public String getGraduacion() {
+        return graduacion;
+    }
+
+    public void setGraduacion(String graduacion) {
+        this.graduacion = graduacion;
+    }
+
+    public int getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(int precio) {
+        this.precio = precio;
+    }
     
     
 }
